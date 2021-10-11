@@ -69,7 +69,7 @@ def parse_library(library):
 
 
 def option_menu(location_info=""):
-    print(f"Rec Room Cache Library Tool v{version} by @Jegarde")
+    print(f"Rec Room Library Cache Tool v{version} by @Jegarde")
     print("Dir:", location_info)
     print("1. Parse and Export")
     print("2. Delete Library")
@@ -146,7 +146,7 @@ def main():
         parsed = parse_library(library)
 
         # Export it
-        export = "Parsed Rec Room Cache Library\nhttps://github.com/Jegarde/RecRoom-Cache-Library-Tool\n[URL / Cache Date]\n"
+        export = "Parsed Rec Room Cache Library\nhttps://github.com/Jegarde/RecRoom-Library-Cache-Tool\n[URL / Cache Date]\n"
         for key in parsed:
             export += f"\nEXTENSION - {key} (Amount: {len(parsed[key])})\n\n"
             for item in parsed[key]:
