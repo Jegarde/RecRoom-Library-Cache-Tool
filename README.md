@@ -20,3 +20,6 @@ The script tries to automatically locate the Library file from AppData. `%userpr
 
 However, the script prioritizes files found in the same directory. Remember, that the cache file MUST be named 'Library' without any file extensions.
 If the Library file can't be found from AppData, try launching Rec Room and opening the Play tab.
+
+# Executable
+I compiled the script into an [executable](https://github.com/Jegarde/RecRoom-Cache-Library-Tool/releases/tag/main) for those interested. It may trigger your anti-virus, and if it does, your best bet is running the Python script directly.
